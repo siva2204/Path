@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#input {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  display: block;
+}
+
+input {
+  max-width: 450px;
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  height: 50px;
+  border: 8px solid rgb(0, 133, 0);
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+.output {
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.output p {
+  margin: 0;
+  padding: 8px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.output p:hover {
+  background-color: white;
+}
+.artists {
+  max-width: 800px;
+  margin: 40px auto;
+  display: block;
+}
+
+.function {
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  display: block;
+}
+
+button {
+  width: 100px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(0, 133, 0);
+  opacity: 1;
+  margin: 25px auto;
+  display: block;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+img {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+
+#showresult {
+  display: none;
+  text-align: center;
+}

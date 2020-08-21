@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Path</title>
+  </head>
+
+  <body onload="getAccessToken()">
+    <div id="input">
+      <form onsubmit="return false" autocomplete="off">
+        <input id="query" type="text" oninput="searchartist()" />
+      </form>
+    </div>
+    <div class="output"></div>
+
+    <div class="artists">
+      <div class="function">
+        <img
+          id="artist1"
+          width="200"
+          height="200"
+          src="./user.png"
+          alt="artist1"
+        />
+      </div>
+      <div class="function">
+        <button id="none" onclick="startpath()">Path</button>
+        <h3 id="showresult">
+          shortestPath : <strong id="pathvalue"> </strong>
+        </h3>
+      </div>
+      <div class="function">
+        <img
+          id="artist2"
+          width="200"
+          height="200"
+          src="./user.png"
+          alt="artist2"
+        />
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
